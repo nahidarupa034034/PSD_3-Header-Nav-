@@ -1,0 +1,134 @@
+
+/*    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/*Common-Tag*/
+body{
+    font-family: 'Ubuntu', sans-serif; 
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+/*Top-Header Section Start*/
+.top_header{
+    background: #0f2f44;
+    color: white;
+    padding: 17px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+.leftright .welcome, .opening{
+    width: 50%;
+}
+.leftright .opening{
+    text-align: right;
+}
+header{
+    border-bottom: 2px solid #d5d6d6;
+    
+}
+/*Top-Header Section End*/
+
+
+
+
+/*navigation Section Start*/
+.navigation{
+    align-items: center;
+    padding: 25px 0;
+}
+
+
+.navmenu ul{ 
+   justify-content: flex-end;
+   
+}
+
+
+.navmenu ul li:hover > a{
+    background: #fff9e6;
+}
+
+   
+    .navmenu ul li ul{
+        position: absolute;
+        display: none;
+        transition: .6s;
+        
+    }
+   
+    .navmenu ul li ul li a{
+        text-align: center;
+        color: white;
+        text-transform: capitalize;
+
+        
+    }
+    .navmenu ul li:hover > ul{
+        display: block;
+        background: #abb0b0;
+        
+    }
+   
+.navmenu ul li a{
+   
+    padding: 19px 15px;
+    text-align: right;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    transition: .6s;
+    text-transform: capitalize;
+    display: block;
+}
+
+.navigation .logo{
+    width: 30%; 
+}
+
+.navigation .navmenu{
+    width: 70%;
+    justify-content: center;
+}
+.navmenu ul li > i{
+    margin: 15px 10px;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    color: #999999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+ 
+}
+
+
+/*navigation Section End*/
+
+
+
+/*banner start*/
